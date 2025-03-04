@@ -1,0 +1,217 @@
+body {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login {
+    border: 1px solid lightgray;
+    background-color: #fff;
+    padding: 30px;
+    width: 350px;
+}
+
+.buttonn {
+    width: 100%;
+    padding: 10px;
+    background-color: #479bf4;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    cursor: auto;
+    transition: background-color 0.3s ease;
+}
+
+.facebook-login {
+    color: #154d70;
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: rgb(99, 103, 108);
+}
+
+.b-box {
+    border: 1px solid lightgray;
+    background-color: #fff;
+    padding: 20px;
+    width: 350px;
+}
+
+.b-box span {
+    color: #479bf4;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.signup-link {
+    color: #5287c0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.app-text {
+    color: rgb(39, 35, 35);
+}
+
+
+h1 {
+    font-size: larger;
+    font-weight: 100;
+}
+
+h2 {
+    color: gray;
+    font-size: larger;
+}
+
+.h2 {
+    color: gray;
+    font-size: small;
+}
+
+
+.or {
+    color: rgb(109, 107, 107);
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.applink {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.applink img {
+    height: 40px;
+    width: 120px;
+}
+
+.navbara {
+    color: gray;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    font-size: 13px;
+    color: rgb(139, 136, 136);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbara li {
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.navbar,
+.navbara {
+    text-align: center;
+    margin: 0px;
+}
+
+select {
+    border: none;
+    font-size: 12px;
+    background: transparent;
+    cursor: pointer;
+}
+
+#sel1 {
+    border-style: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.info-text {
+    font-size: 12px;
+}
+
+.info-text a {
+    font-family: monospace;
+    color: rgb(21, 21, 107);
+}
+
+.header {
+    display: flex;
+    height: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.btn {
+    background-color: #479bf4;
+    cursor: pointer;
+    border: none;
+}
+.signBtn {
+    background-color: #fff;
+    color:#479bf4 ;
+    cursor: pointer;
+    font-weight: bolder;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #1b87fa;
+}
+
+.reset {
+    margin-top: 50px;
+}
+
+.error:hover {
+    padding: 10px;
+}
+.reset a{
+    text-decoration: none;
+}
+a{
+    color: black;
+}
+.p {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.back-box {
+    margin:0px 0px ;
+    width: 100%;
+    background-color: #f5f5f5; 
+    padding: 15px 0;
+    text-align: center;
+    border: 1px solid #ddd; 
+}
+
+.back-box a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+@media (max-width: 780px) {
+    .header {
+        width: 100%;
+        padding: 10px;
+    }
+}
